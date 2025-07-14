@@ -36,6 +36,11 @@ Oikos is a decentralized web3 application built on the Stellar blockchain. Its m
 
 ---
 
+## Deployment
+
+https://v0-oikos.vercel.app/
+
+---
 ## 🔧 Development
 
 Clone the repo:

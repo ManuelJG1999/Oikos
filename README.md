@@ -46,5 +46,8 @@ cd Oikos
 
 npm install
 
+if some issues are faced, try:
+npm install --legacy-peer-deps
+
 npm run dev
 

@@ -1,30 +1,50 @@
-# Oikos
+# 🌱 Oikos – Liquidity Pool for Education in Latin America
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Oikos is a decentralized web3 application built on the Stellar blockchain. Its mission is to enable students across Latin America to access microloans for their education, while allowing investors to contribute to a shared liquidity pool and earn sustainable returns.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/manueljgs-projects/v0-oikos)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/hC5YeJllvxU)
+💡 "We fund futures through education."
 
-## Overview
+---
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## ✨ Features
 
-## Deployment
+- 🧑‍🎓 Students can request educational microloans.
+- 💰 Investors can contribute to a shared liquidity pool.
+- 🔐 Secure wallet login using Stellar wallets like Freighter and Lobstr.
+- 📊 Transparent dashboard of active pools, contributions and loan status.
+- ⚙️ Smart contract (Soroban) powered logic to manage deposits and loans.
 
-Your project is live at:
+---
 
-**[https://vercel.com/manueljgs-projects/v0-oikos](https://vercel.com/manueljgs-projects/v0-oikos)**
+## 🛠️ Tech Stack
 
-## Build your app
+- Frontend: React + TailwindCSS
+- Wallet Integration: Stellar Freighter, StellarKit
+- Smart Contracts: Soroban (Rust)
+- Network: Stellar Futurenet
+- Tools: Cursor (for local development and contract deployment)
 
-Continue building your app on:
+---
 
-**[https://v0.dev/chat/projects/hC5YeJllvxU](https://v0.dev/chat/projects/hC5YeJllvxU)**
+## 🚀 How It Works
 
-## How It Works
+1. Investors connect their Stellar wallet and deposit USDC/XLM into the pool.
+2. A Soroban smart contract manages the pool and mints LP tokens to investors.
+3. Students request loans directly from the app.
+4. Loans are disbursed and repayments tracked on-chain.
+5. Investors can redeem rewards over time based on pool returns.
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+---
+
+## 🔧 Development
+
+Clone the repo:
+
+```bash
+git clone https://github.com/ManuelJG1999/Oikos.git
+cd Oikos
+
+npm install
+
+npm run dev
+
